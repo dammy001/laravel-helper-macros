@@ -1,0 +1,43 @@
+{
+    "name": "damilare/laravel-helper-macros",
+    "description": "Laravel Helper Macros",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damilare Anjorin",
+            "email": "damilareanjorin1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/contracts": "^8.0|^7.0",
+        "illuminate/support": "^8.0|^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.5.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Damilare\\LaravelHelperMaros\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Damilare\\LaravelHelperMacros\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Damilare\\LaravelHelperMacros\\HelperMacroServiceProvider"
+            ]
+        }
+    }
+}
