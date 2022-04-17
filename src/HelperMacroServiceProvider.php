@@ -5,7 +5,7 @@ namespace Damilare\LaravelHelperMacros;
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
 
-class MacroServiceProvider extends ServiceProvider
+class HelperMacroServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
