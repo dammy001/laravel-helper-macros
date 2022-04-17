@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Damilare\\LaravelHelperMaros\\": "src"
+            "Damilare\\LaravelHelperMacros\\": "src"
         }
     },
     "autoload-dev": {
