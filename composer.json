@@ -13,8 +13,8 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.4|^8.0|^8.1",
-        "illuminate/contracts": "11.1.0",
-        "illuminate/support": "11.1.0"
+        "illuminate/contracts": "11.29.0",
+        "illuminate/support": "11.29.0"
     },
     "require-dev": {
         "orchestra/testbench": "8.22.2",
